@@ -167,7 +167,7 @@ def executar_testes():
         
         # Validação automática
         esta_correto = dados_ordenados == sorted(dados)
-        print(f"Validação: {'✅ Sucesso' if esta_correto else '❌ Falha'}")
+        print(f"Validação: {'Sucesso' if esta_correto else 'Falha'}")
 
     print("\n" + "-" * 50)
     print("TESTE INTERATIVO (ENTRADA DO USUÁRIO)")
